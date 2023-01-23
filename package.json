@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node ./dist/index.js",
     "dev": "tsnd src/index.ts",
-    "build": "rimraf /dist & tsc",
-    "deploy": "npm run build && docker build -f Dockerfile ."
+    "build": "rimraf /dist & tsc"
   },
   "keywords": [],
   "author": "",
